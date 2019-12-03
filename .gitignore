@@ -1,0 +1,13 @@
+.idea
+service/main
+service/service
+config.ini
+data
+tcs-admin/buefy_project/node_modules
+tcs-admin/buefy_project_last/node_modules
+tcs-admin/buefy_project/.idea
+tcs-admin/buefy_project_last/.idea
+.vscode
+vendor
+Gopkg.lock
+Gopkg.toml
