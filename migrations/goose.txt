@@ -1,0 +1,4 @@
+goose create stats_reg_reward sql
+goose postgres "host=localhost port=26263 user=root dbname=strategy sslmode=disable" status
+goose postgres "host=localhost port=26263 user=root dbname=strategy sslmode=disable" up
+goose postgres "host=localhost port=26263 user=root dbname=strategy sslmode=disable" down
