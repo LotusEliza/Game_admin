@@ -1,6 +1,7 @@
 <template>
     <section class="pd-3">
         <app-search class="is-hidden-desktop p-3"></app-search>
+
 <!--****************************PAGINATION*******************************************-->
         <section>
             <b-pagination
@@ -20,6 +21,7 @@
                     aria-current-label="Current page">
             </b-pagination>
         </section>
+
 <!--****************************TABLE*******************************************-->
         <b-table
                 :data="isEmpty ? [] : players"
@@ -190,25 +192,6 @@
     @import "../styles/_variables.scss";
     @import "../../node_modules/bulma/sass/utilities/_all.sass";
     @import "../../node_modules/bulma/sass/utilities/mixins.sass";
-
-    /*.some-responsive-thing {*/
-
-    /*    border: 1px dashed #990000;*/
-    /*@include until($desktop) {*/
-    /*    border-bottom: 1px solid green;*/
-    /*}*/
-
-    /*@include from($tablet) {*/
-    /*    border-left: 1px solid yellow;*/
-    /*}*/
-
-    /*@include tablet {*/
-    /*    border-top: 2px solid orange;*/
-    /*}*/
-    /*@include widescreen-only {*/
-    /*    border-right: 2px solid blue;*/
-    /*}*/
-    /*}*/
 
     @import "../../node_modules/bulma";
     @import "../../node_modules/buefy/src/scss/buefy.scss";

@@ -97,7 +97,7 @@
                             </div>
                         </div>
                         <hr>
-                        <!--//********************************INVENTORY *******************************************************-->
+                        <!--//********************************INVENTORY*******************************************************-->
                         <p class="title">Inventory</p>
                         <b-field>
                             <b-select rounded expanded v-model="selected.ItemType"  size="is-small">

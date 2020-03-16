@@ -154,7 +154,6 @@
                                             </div>
 
                                             <div class="column is-narrow">
-            <!--                                        <p class="subtitle">Date</p>-->
                                                 <BInputWithValidation rules="required"
                                                                       type="text"
                                                                       label="Date"
